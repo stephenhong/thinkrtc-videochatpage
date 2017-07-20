@@ -1,0 +1,215 @@
+<style>
+  .box-shadow {
+    box-shadow: 0 10px 30px rgba(18,20,22,0.25);
+  }
+  .list-style-none {
+    list-style: none;
+  }
+  .padding {
+    padding: 10rem 5rem;
+  }
+  .font-large {
+    font-size: 2rem;
+  }
+  .white {
+    color: #fff;
+  }
+  .background-blue-dark-2 {
+    background: url(https://sumome.com/images/dohyo/home-intro-bg.jpg) no-repeat center center;
+  }
+  .margin-none {
+    margin: 0 !important;
+  }
+  #home-checks .check {
+    width: 22px;
+    height: auto;
+    position: relative;
+    top: -2%;
+    margin-right: 4px;
+  }
+  /*FEATURES*/
+  .icon {
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    padding-left: 65px;
+  }
+  .header {
+      text-align: center;
+      margin-bottom: 100px;
+      padding: 0 0 45px;
+  }
+  .signup_btn {
+    background-color: transparent;
+    border-color: white;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 2px solid;
+    padding:15px 42px 15px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease-out;
+         -o-transition: all .5s ease-out;
+            transition: all .5s ease-out;
+  }
+  .signup_btn:hover {
+    border-color: #09c;
+    background-color: #09c;
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn:hover {
+    border-color: #09c;
+    background-color: #09c;
+  }
+</style> <!--videoscreensharing-->
+
+<head>
+  <title>ThinkRTC | Video Chat</title>
+</head>
+<meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+
+<!-- Home -->
+<main id="home" class="masthead-video masked">
+  <video class="video" autoplay="" loop="" muted="">
+      <source src="https://d3hjue7omxs01q.cloudfront.net/Video/overview/voice-video.mp4" type="video/mp4">
+      <source src="video/video.webm" type="video/webm">
+  </video>
+  <div class="opener rel-1">
+    <div class="container">
+      <div class="row">
+        <center>
+        <div class="lead col-lg-6" style="float:none">
+          <h1 class="wow fadeInDown">Share your screen instantly with anyone</h1>
+          <p class="lead-text">Use Real Time Video communication directly on your browser to onboard users more efficiently </p>
+        </div>
+        <br>
+        <div class="lead-controls">
+          <div class="row-fields row">
+            <div>
+              <a href="/sign_up" class="btn signup_btn hvr-grow">try it now</a>
+            </div>
+          </div>
+        </div>
+        </center>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Content -->
+<div class="content">
+  
+  <section class="main flow">
+    <div class="section-flow clearfix">
+      <div class="container">
+        <header class="header" style="padding: 0px; margin-bottom: 0px">
+          <h2>You need solutions.</h2>
+        </header>
+        <div class="step product1">
+          <br><br>
+          <h4>Manage</h4>
+          <p>Manage your customers in one location. Know who is who and assign them specifically for more efficiency. </p>
+        </div>
+        <div class="step product2">
+          <br><br>
+          <h4>Collaborate</h4>
+          <p>Add your sales, marketing, and tech team into the CRM so everyone knows what they're doing.</p>
+        </div>
+        <div class="step product3">
+          <br><br>
+          <h4>Track</h4>
+          <p>Know exacty when your users are online so you can onboard and communicate with them instantly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <section id="features1" class="features section">
+    <div class="container">
+      <div class="row-columns row-padding row">  
+        <div class="col-feature-img column col-md-6 text-center wow fadeInLeft"><br>
+          <img style="width: 100%" src="<%= asset_path 'sharescreencrop'%>" alt="thinkrtc videochat">
+        </div>
+        <div class="col-feature column column-padding col-md-6">
+          <ul class="features">
+            <li class="icon">
+              <h3>Virtual Collaboration Made Easy </h3>
+              <p>ThinkRTC screen sharing functionality makes it easy to enhance your real-time communications experience with the power of content.</p>
+            </li>
+            <li class="icon">
+              <h3>Engage with your customers the right way</h3>
+              <p>Send targeted messages to onboard users, make announcements, and re-engage people.</p>
+            </li>
+            <li class="icon">
+              <h3>Built for your Use Case</h3>
+              <p>Across a wide range of industries, the ability for a presenter to share their screen content is powerful. It enables a richer, more collaborative experience or application.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <section id="features2" class="features section">
+    <div class="container">
+      <header class="header">
+        <h2>Getting More Customers Shouldn’t Be Hard </h2>
+        <p>That’s why we arm you with a suite of proven onboarding-growing solutions to help you get more traffic,<br>build a following and track your success every step of the way.<br>Convert those leads into paid customers.</p>
+      </header>
+      <div class="row-padding row-columns row">
+        <div class="col-feature-img text-center column column-padding col-md-5 col-md-push-7 wow fadeInUp">
+          <!--<img class="feature-img" src="//cdn.mxpnl.com/cache/23e440f1e6c23d877fc2b9c0f98c9bb6/images/static/landing/marketing/autotrack/1x/browser1.png">-->
+          <ul id="home-checks" class="background-blue-dark-2 box-shadow margin-none padding font-large white list-style-none">
+            <li><img class="check" src="https://load.sumome.com/images/dohyo/check.svg" alt="thinkrtc"> <b>No</b> Coding Needed</li>
+            <br>
+            <li><img class="check" src="https://load.sumome.com/images/dohyo/check.svg" alt="thinkrtc"> Create Directly On Your Website</li>
+            <br>
+            <li><img class="check" src="https://load.sumome.com/images/dohyo/check.svg" alt="thinkrtc"> <b>Easy</b> To Use</li>
+          </ul>
+        </div>
+        <div class="col-feature column column-padding col-md-7 col-md-pull-5">
+          <ul class="features">
+            <li class="icon">
+              <h3>Power interactive e-consultations.</h3>
+              <p>Interact with your customers in a more humane and helpful way by providing the right support  </p>
+            </li>
+            <li class="icon">
+              <h3>Get More Customers</h3>
+              <p>Your best leads are already right in front of you. You need to reach out and let them know you’re there with ThinkRTC. It’s simple and fun for everyone.</p>
+            </li>
+            <li class="icon">
+              <h3>Retain Customer</h3>
+              <p>Chat with website visitors in real-time, capture leads, and continue conversations by email.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <!-- Banner -->
+  <section id="banner" class="section-sm">
+    <center>
+      <div class="container"><h2>Ready to make your business communication  easier?</h2>
+        <div class=""  style="margin-top:50px">
+          <a href="/sign_up" class="btn hvr-grow" style="background-color: #fff; color: #000">sign up</a>
+        </div>
+      </div>
+    </center>
+  </section>
+</div>
